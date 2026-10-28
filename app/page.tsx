@@ -30,7 +30,7 @@ export default function Home() {
           I build mobile applications for real-world business needs.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-          I’m Phyo, a software developer with 9+ years of experience, including 5+ years
+          I’m Phyo Thandar, a software developer with 9+ years of experience, including 5+ years
           focused on Flutter and cross-platform mobile applications.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
