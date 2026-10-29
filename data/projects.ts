@@ -23,6 +23,26 @@ export const projects: PortfolioProject[] = [
       "Use screenshots that you own or have permission to share. Do not include customer data or confidential business information.",
   },
   {
+    title: "FCS Logistics System",
+    category: "Logistics",
+    summary:
+      "A business system supporting logistics and operational workflows.",
+    contribution:
+      "Contributed to application development and features supporting logistics operations.",
+    stack: ["Flutter", "Dart", "REST APIs"],
+    // image: "/images/fcs-logistics.png",
+  },
+  {
+    title: "Smoove",
+    category: "Tourism",
+    summary:
+      "A business system supporting logistics and operational workflows.",
+    contribution:
+      "Contributed to application development and features supporting logistics operations.",
+    stack: ["Flutter", "Dart", "REST APIs"],
+    image: "/images/smoove/smoove_1.png",
+  },
+  {
     title: "Foresight Petrol Station Management",
     category: "Business application",
     summary:
@@ -30,7 +50,7 @@ export const projects: PortfolioProject[] = [
     contribution:
       "Developed Flutter application features and worked with Firebase-backed data and application workflows.",
     stack: ["Flutter", "Dart", "Firebase", "Provider"],
-    // image: "/images/foresight.png",
+    image: "/images/sme/sme_1.png",
   },
   {
     title: "FCS Logistics System",
