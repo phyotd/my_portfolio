@@ -12,7 +12,7 @@ export default function Home() {
       <header className="sticky top-0 z-20 border-b border-slate-200/80 bg-white/95 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
           <a href="#home" className="text-lg font-bold tracking-tight">
-            Phyo Thandar<span className="text-blue-600">.</span>
+            <span className="text-blue-600">Phyo’s Portfolio</span>
           </a>
           <div className="flex items-center gap-4 text-sm text-slate-600 sm:gap-7">
             <a className="transition hover:text-blue-600" href="#projects">Projects</a>
