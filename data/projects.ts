@@ -52,14 +52,4 @@ export const projects: PortfolioProject[] = [
     stack: ["Flutter", "Dart", "Firebase", "Provider"],
     image: "/images/sme/sme_1.png",
   },
-  {
-    title: "FCS Logistics System",
-    category: "Logistics",
-    summary:
-      "A business system supporting logistics and operational workflows.",
-    contribution:
-      "Contributed to application development and features supporting logistics operations.",
-    stack: ["Flutter", "Dart", "REST APIs"],
-    // image: "/images/fcs-logistics.png",
-  },
 ];
