@@ -12,16 +12,19 @@ export function Navbar() {
         </div>
       </a>
       <div className="flex items-center gap-4 text-md text-slate-600 sm:gap-7">
-        <a className="transition hover:text-blue-600" href="#projects">
+         <a className="transition hover:text-primary-hover" href="#home">
+          Home
+        </a>
+        <a className="transition hover:text-primary-hover" href="#projects">
           Projects
         </a>
         <a
-          className="hidden transition hover:text-blue-600 sm:inline"
+          className="hidden transition hover:text-primary-hover sm:inline"
           href="#about"
         >
           About
         </a>
-        <a className="transition hover:text-blue-600" href="#contact">
+        <a className="transition hover:text-primary-hover" href="#contact">
           Contact
         </a>
       </div>
