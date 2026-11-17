@@ -4,7 +4,7 @@ const stats = [
   { icon: Smartphone, value: "8+", label: "Apps built" },
   { icon: Rocket, value: "3+", label: "Apps published" },
   { icon: LayoutDashboard, value: "2", label: "Dashboards" },
-  { icon: Award, value: "5+", label: "Years experience" },
+  { icon: Award, value: "5+", label: "Flutter experience" },
 ];
 
 export function Stats() {
