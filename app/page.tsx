@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { projects } from "../data/projects";
 import { Navbar } from "./components/navbar";
 import { Stats } from "./components/stats";
 import SelectedProjects from "./components/selected-projects";
@@ -18,13 +17,8 @@ const skills = [
   "React Native",
   "Redux",
   "Git",
-  "Github",
-];
-
-const stats = [
-  { value: "8+", label: "Apps built" },
-  { value: "3+", label: "Apps published" },
-  { value: "2", label: "Dashboards" },
+  "GitHub",
+  "GitHub Actions",
 ];
 
 export default function Home() {
@@ -58,7 +52,7 @@ export default function Home() {
                 href="#projects"
                 className="rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white transition hover:bg-primary-hover"
               >
-                Explore projects <span aria-hidden="true">↗</span>
+                Explore projects <span aria-hidden="true">↓</span>
               </a>
               <a
                 href="/cv.pdf"
@@ -66,7 +60,7 @@ export default function Home() {
                 rel="noreferrer"
                 className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold transition hover:border-slate-900"
               >
-                View CV <span aria-hidden="true">↓</span>
+                View CV <span aria-hidden="true">↗</span>
               </a>
             </div>
           </div>
@@ -93,7 +87,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-5 max-w-3xl leading-7 text-slate-600">
-              I develop and maintain mobile applications, integrate APIs and
+              I develop and maintain mobile and web applications, integrate APIs and
               backend services, troubleshoot application issues, and collaborate
               with developers and QA teams. I’ve also provided technical
               guidance to junior mobile developers.
@@ -123,7 +117,7 @@ export default function Home() {
 
       <section
         id="contact"
-        className="mx-auto max-w-7xl scroll-mt-20 bg-slate-900 text-white"
+        className="mx-auto scroll-mt-20 bg-slate-900 text-white"
       >
         <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-300">

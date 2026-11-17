@@ -7,7 +7,7 @@ export function Navbar() {
       <a href="#home" className="text-lg font-bold tracking-tight">
         <div className="flex flex-1 ">
           <Code2 className="text-primary" /> 
-          <span className="pl-1 text-foreground">Dev</span>
+          <span className="pl-1 text-foreground">PTD.</span>
           <span className="text-primary">Portfolio</span>
         </div>
       </a>
