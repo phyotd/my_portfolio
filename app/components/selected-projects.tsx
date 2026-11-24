@@ -31,20 +31,6 @@ const projects = [
     slug: "wesuccess",
   },
   {
-    title: "Smoove",
-    category: "Mobile Application",
-    role: "",
-    description:
-      "A travel guide application for exploring attractions, discovering famous places, and finding great restaurants.",
-    screenshots: [
-      "/images/smoove/sm_1.png",
-      "/images/smoove/sm_2.png",
-      "/images/smoove/sm_3.png",
-    ],
-    technologies: ["React Native", "Javascript", "Firebase", "Redux"],
-    slug: "smoove",
-  },
-  {
     title: "Showlike",
     category: "Mobile Application",
     role: "",
@@ -59,6 +45,21 @@ const projects = [
     slug: "showlike",
   },
   {
+    title: "Smoove",
+    category: "Mobile Application",
+    role: "",
+    description:
+      "A travel guide application for exploring attractions, discovering famous places, and finding great restaurants.",
+    screenshots: [
+      "/images/smoove/sm_1.png",
+      "/images/smoove/sm_2.png",
+      "/images/smoove/sm_3.png",
+    ],
+    technologies: ["Flutter", "Dart", "Firebase", "GetX"],
+    slug: "smoove",
+  },
+
+  {
     title: "Foresight",
     category: "Business Application",
     role: "",
@@ -69,7 +70,7 @@ const projects = [
       "/images/sme/sme_2.png",
       "/images/sme/sme_3.png",
     ],
-    technologies: ["Flutter", "Dart", "Firebase", "Firestore"],
+    technologies: ["Flutter", "Dart", "Firebase", "Firestore","Provider"],
     slug: "foresight",
   },
   {
@@ -97,7 +98,7 @@ const projects = [
       "/images/sme/qr_login.png",
       "/images/sme/ph_login.png",
     ],
-    technologies: ["Flutter", "Dart", "Provider", "Firebase", "Firestore"],
+    technologies: ["Flutter Web", "Dart", "Provider", "Firebase", "Firestore"],
     slug: "sme",
   },
 ];

@@ -1,10 +1,10 @@
 import { Smartphone, Rocket, LayoutDashboard, Award } from "lucide-react";
 
 const stats = [
-  { icon: Smartphone, value: "8+", label: "Apps built" },
-  { icon: Rocket, value: "3+", label: "Apps published" },
+  { icon: Smartphone, value: "7+", label: "featured projects" },
   { icon: LayoutDashboard, value: "2", label: "Dashboards" },
-  { icon: Award, value: "5+", label: "Flutter experience" },
+  { icon: Award, value: "5+", label: "years Flutter & React Native" },
+  { icon: Award, value: "9+", label: "years in software development" },
 ];
 
 export function Stats() {
