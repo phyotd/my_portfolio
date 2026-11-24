@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Navbar } from "./components/navbar";
 import { Stats } from "./components/stats";
 import SelectedProjects from "./components/selected-projects";
+import Skills from "./components/skills";
 
 const skills = [
   "Flutter",
@@ -41,11 +42,13 @@ export default function Home() {
               </span>
             </h1>
             <h1 className="text-4xl font-bold  text-primary">
-              Mobile Developer (Flutter & Dart)
+              Mobile Developer (Flutter & React Native)
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              I develop responsive, user-friendly mobile and web applications
-              tailored to real-world business needs.
+              9+ years in software development, 5+ years shipping cross-platform
+              Android and iOS apps. I build real-time, API-driven apps for
+              restaurants, retail, logistics, and travel, from first commit to
+              App Store release.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -55,7 +58,7 @@ export default function Home() {
                 Explore projects <span aria-hidden="true">↓</span>
               </a>
               <a
-                href="/cv.pdf"
+                href="/Phyo-Thandar-Mobile-Developer.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold transition hover:border-slate-900"
@@ -87,10 +90,24 @@ export default function Home() {
             </h2>
 
             <p className="mt-5 max-w-3xl leading-7 text-slate-600">
-              I develop and maintain mobile and web applications, integrate APIs and
-              backend services, troubleshoot application issues, and collaborate
-              with developers and QA teams. I’ve also provided technical
-              guidance to junior mobile developers.
+              I’m a mobile developer based in Bangkok, with experience across
+              Flutter, React Native, and React.js. I’ve shipped apps for
+              membership, e-commerce, POS, logistics, travel, and entertainment,
+              and I’m comfortable owning a module from development through
+              testing and store release.
+            </p>
+            <p className="mt-2 max-w-3xl leading-7 text-slate-600">
+              {" "}
+              I’ve also worked as a technical lead: I’ve mentored junior
+              developers, run code reviews, and worked directly with clients to
+              turn business requirements into working software.
+            </p>
+
+            <p className="mt-2 max-w-3xl leading-7 text-slate-600">
+              {" "}
+              I use GitHub Copilot and Claude daily, and I review and test
+              everything they generate. I’m available immediately and open to
+              remote roles with international teams.
             </p>
           </div>
           <div className="flex-1">
@@ -111,8 +128,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-16">
-        <SelectedProjects/>
+      <section
+        id="projects"
+        className="mx-auto max-w-6xl scroll-mt-20 px-5 py-16"
+      >
+        <SelectedProjects />
       </section>
 
       <section
